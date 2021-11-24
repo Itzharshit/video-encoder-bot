@@ -1,40 +1,32 @@
 {
-  "name": "Itzharshit/video-encoder-bot/",
-  "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarshhh0",
-  "keywords": [
-      "telegram",
-      "stream",
-      "web",
-      "pyrogram",
-      "aiohttp",
-      "python",
-      "plugin",
-      "modular",
-      "media"
+    "name": "Glitch-Art-Bot",
+    "description": "A image to glitch image telegram bot",
+    "repository": "https://github.com/FayasNoushad/Glitch-Art-Bot",
+    "keywords": [
+        "glitch art",
+        "telegram bot",
+        "pyrogram"
     ],
-  "repository": "https://github.com/Itzharshit/video-encoder-bot/",
-  "success_url": "/",
-  "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
-  "website": "http://adarsh.tk",
-      "API_ID": {
-          "description": "Get this value from https://my.telegram.org"
-      },
-      "API_HASH": {
-          "description": "Get this value from https://my.telegram.org"
-      },
-      "BOT_TOKEN": {
-          "description": "Get this value from @BotFather"
-      },
-      "SUDO_USERS": {
-          "description": "The BIN Channel ID. Read the readme for more info about this var"
-      },
-  "buildpacks": [{
-      "url": "heroku/python"
-    }],
-  "formation": {
-      "web": {
-          "quantity": 1,
-          "size": "free"
-      }
-  }
+    "env": {
+        "BOT_TOKEN": {
+            "description": "Your Bot token from @Botfather"
+        },
+        "API_ID": {
+            "description": "Your API_ID from https://my.telegram.org/apps"
+        },
+        "SUDO_USERS": {
+            "description": "Your CHAT_ID add miss rose to your group and send /id in your group"
+        },
+        "DOWNLOAD_DIR": {
+            "description": "SEND /ID TO @missrose_bot"
+        },
+        "API_HASH": {
+            "description": "Your API_HASH from https://my.telegram.org/apps"
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
 }
