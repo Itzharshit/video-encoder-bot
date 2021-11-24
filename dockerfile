@@ -8,4 +8,4 @@ RUN git clone https://github.com/Itzharshit/video-encoder-bot/
 RUN cd video-encoder-bot
 WORKDIR /video-encoder-bot
 RUN pip3 install -U -r requirements.txt
-CMD python3 main.py
+CMD python3 -m bot
