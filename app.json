@@ -1,0 +1,40 @@
+{
+  "name": "Adarsh-FileStreamBot",
+  "description": "A Pyrogram Telegram bot to Stream Telegram files to web. @adarshhh0",
+  "keywords": [
+      "telegram",
+      "stream",
+      "web",
+      "pyrogram",
+      "aiohttp",
+      "python",
+      "plugin",
+      "modular",
+      "media"
+    ],
+  "repository": "https://github.com/viperadnan-git/video-encoder-bot",
+  "success_url": "/",
+  "logo": "https://i.ibb.co/MnMZ1Sy/download-1.jpg",
+  "website": "http://adarsh.tk",
+      "API_ID": {
+          "description": "Get this value from https://my.telegram.org"
+      },
+      "API_HASH": {
+          "description": "Get this value from https://my.telegram.org"
+      },
+      "BOT_TOKEN": {
+          "description": "Get this value from @BotFather"
+      },
+      "SUDO_USERS": {
+          "description": "The BIN Channel ID. Read the readme for more info about this var"
+      },
+  "buildpacks": [{
+      "url": "heroku/python"
+    }],
+  "formation": {
+      "web": {
+          "quantity": 1,
+          "size": "free"
+      }
+  }
+}
